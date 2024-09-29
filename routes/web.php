@@ -35,4 +35,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+// Disable all other routes for now and reroute to '/'
+Route::any('{any}', function () {
+    return redirect('/');
+})->where('any', '.*');
+
 require __DIR__.'/auth.php';

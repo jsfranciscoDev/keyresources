@@ -23,16 +23,16 @@ defineProps({
     <Head title="keyresourcesintlservices" />
 
     <div
-        class="relative flex items-center justify-center w-screen h-screen"
+        class="relative flex flex-col-reverse items-center justify-center w-screen h-screen overflow-hidden md:p-20 lg:flex-row"
     >
 
-    <div class="z-10 flex items-center justify-center w-1/2 h-full p-8">
+    <div class="z-10 flex items-center justify-center w-full h-full p-8 lg:w-1/2">
         <img src="images/undermaintenance.svg" class="w-auto h-auto"/>
     </div>
     
 
-    <div class="z-10 flex flex-col items-start justify-center w-1/2 h-full p-8 text-left rounded-lg">
-        <h2 class="mb-4 text-[48px] font-bold text-gray-800">
+    <div class="z-10 flex flex-col items-start justify-center w-full h-full p-2 text-center rounded-lg lg:w-1/2 md:text-left">
+        <h2 class="mb-4 text-[28px] font-bold text-gray-800 lg:text-[48px]">
             Our website is under construction
         </h2>
         <p class="mb-4 text-lg text-gray-600">

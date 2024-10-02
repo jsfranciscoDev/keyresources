@@ -6,7 +6,7 @@
             <!-- Mobile menu button-->
             <button
               type="button"
-              class="relative inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              class="relative inline-flex items-center justify-center p-2 rounded-md text-black-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               @click="toggleMenu"
             >
               <span class="sr-only">Open main menu</span>
@@ -47,7 +47,7 @@
             </button>
           </div>
           <div class="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
-            <div class="flex items-center flex-shrink-0 text-white">Logo Here</div>
+            <div class="flex items-center flex-shrink-0 text-black">Logo Here</div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
                 <a
@@ -58,17 +58,17 @@
                 >
                 <a
                   href="#"
-                  class="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
+                  class="px-3 py-2 text-sm font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
                   >About</a
                 >
                 <a
                   href="#"
-                  class="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
+                  class="px-3 py-2 text-sm font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
                   >Services</a
                 >
                 <a
                   href="#"
-                  class="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
+                  class="px-3 py-2 text-sm font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
                   >Tracking</a
                 >
               </div>
@@ -82,23 +82,23 @@
         <div class="px-2 pt-2 pb-3 space-y-1">
           <a
             href="#"
-            class="block px-3 py-2 text-base font-medium text-white bg-black rounded-md"
+            class="block px-3 py-2 text-base font-medium text-black bg-black rounded-md"
             aria-current="page"
             >Home</a
           >
           <a
             href="#"
-            class="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
+            class="block px-3 py-2 text-base font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
             >About</a
           >
           <a
             href="#"
-            class="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
+            class="block px-3 py-2 text-base font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
             >Services</a
           >
           <a
             href="#"
-            class="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
+            class="block px-3 py-2 text-base font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
             >Tracking</a
           >
         </div>

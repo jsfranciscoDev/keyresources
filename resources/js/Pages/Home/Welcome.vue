@@ -1,6 +1,8 @@
 <script setup>
 import { Head, Link } from '@inertiajs/vue3';
 import HeroSection from './Components/HeroSections.vue';
+import ServicesSection from './Components/ServicesSection.vue';
+import AboutSection from './Components/AboutSection.vue';
 import Navbar from '@/Layouts/Navbar.vue';
 
 defineProps({
@@ -25,9 +27,11 @@ defineProps({
    <Head title="Key Resources International Services" />
    
  
-   <div class="relative overflow-y-hidden">
+   <div class="relative">
     <Navbar class="fixed"/>
     <HeroSection/>
+    <AboutSection/>
+    <ServicesSection/>
    </div>
 
 </template>

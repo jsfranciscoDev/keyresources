@@ -11,10 +11,12 @@
                 <p class="text-[20px] mb-4">The Immigration Consultant For Your Better Tomorrow!</p>
                
                 <span class="">
-                        We are an ISO 9001:2015 Certified Company offering professional immigration and human resources consultancy services, with offices in Dubai and Abu Dhabi, United Arab Emirates.
-                        We offer professional and efficient immigration and relocation services by providing a no-hassle, one-stop center for potential immigrants to Canada, Australia, Poland, the Czech Republic, the United Kingdom, and other European countries at competitively affordable prices.
+                        We are an ISO 9001:2015 Certified Company offering professional immigration and human resources consultancy services, with offices in Dubai and Abu Dhabi, United Arab Emirates.<br><br>
+                        We offer professional and efficient immigration and relocation services by providing a no-hassle, one-stop center for potential immigrants to Canada, Australia, Poland, the Czech Republic, the United Kingdom, and other European countries at competitively affordable prices.<br><br>
                         We, as a company, are providing services to various countries around the globe to all nationalities, we help people in going to countries for the purpose of education, work or settlement.
                 </span>
+
+            
             </div>
         </div>
         

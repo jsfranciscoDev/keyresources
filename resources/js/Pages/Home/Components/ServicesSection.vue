@@ -1,5 +1,5 @@
 <template>
-    <div class="p-10 pb-10 overflow-x-hidden bg-gray-100 xl:px-28 xl:pb-28">
+    <div class="p-10 pb-10 overflow-x-hidden bg-gray-50 xl:px-28 xl:pb-28">
       <div class="flex flex-col items-center justify-center w-full p-5 text-center xl:p-16">
         <h2 class="text-[28px] font-bold lg:text-[48px]">Our Services</h2>
       <span>We're Committed to Providing Comprehensive and Professional Immigration Consultancy Services and Advice to our Clients.

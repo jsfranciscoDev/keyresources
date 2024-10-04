@@ -2,8 +2,8 @@
     <div class="parallax-container">
       <div class="parallax-content">
         <div class="flex flex-col items-center justify-center gap-5 py-[50px] lg:py-[100px] text-black lg:flex-row">
-          <div class="flex flex-col h-[400px] lg:h-[400px] items-center justify-center w-full lg:w-1/2 p-5 mx-5 bg-white rounded-xl">
-            <h2 class="text-[24px] lg:text-[38px] font-bold mb-[-30px]">Our Core Values</h2>
+          <div class="flex flex-col items-center justify-center w-full p-5 mx-5 bg-white lg:w-1/2 rounded-xl">
+            <h2 class="text-[24px] lg:text-[38px] font-bold">Our Core Values</h2>
             <div class="relative w-full">
               <!-- Slider Container -->
               <div class="flex items-center justify-center overflow-hidden slider-container">
@@ -15,8 +15,12 @@
                     class="flex items-center justify-center slide"
                     v-for="(value, index) in coreValues"
                     :key="index"
-                  >
-                    <p class="p-2 text-center">{{ value }}</p>
+                  > 
+                    <div class="max-w-[325px] md:max-w-[500px] h-full">
+                        <p class="p-2 text-center">{{ value }}</p>
+                    </div>
+                    
+
                   </div>
                 </div>
               </div>
@@ -33,14 +37,18 @@
             </div>
           </div>
   
-          <div class="flex flex-col items-center justify-center w-full lg:w-1/2 h-[400px] gap-2">
+          <div class="flex flex-col items-center justify-center w-full gap-2 lg:w-1/2">
             <div class="flex flex-col items-center justify-center w-full p-5 mx-5 bg-white lg:p-10 h-1/2 rounded-xl">
               <h2 class="text-[20px] lg:text-[38px] font-bold">Our Mission</h2>
-              <p>To provide personal and customized solutions to meet customers' unique needs and requirements.</p>
+                <div class="max-w-[325px] md:max-w-[500px] h-full">
+                    <p>To provide personal and customized solutions to meet customers' unique needs and requirements.</p>
+                </div>
             </div>
             <div class="flex flex-col items-center justify-center w-full p-5 mx-5 bg-white lg:p-10 h-1/2 rounded-xl">
               <h2 class="text-[20px] lg:text-[38px] font-bold">Our Vision</h2>
-              <p>To be the preferred WorldWide service provider of immigration and relocation services.</p>
+                <div class="max-w-[325px] md:max-w-[500px] h-full">
+                    <p>To be the preferred WorldWide service provider of immigration and relocation services.</p>
+                </div>
             </div>
           </div>
         </div>
@@ -121,30 +129,6 @@
   }
   
   /* Media queries for responsiveness */
-  @media (max-width: 640px) {
-    .parallax-content {
-      padding: 1rem; /* Less padding for mobile */
-    }
-  
-    .slide {
-      font-size: 14px; /* Smaller text size for mobile */
-    }
-  
-    h2 {
-      font-size: 18px; /* Smaller heading for mobile */
-    }
-  }
-  
-  @media (min-width: 641px) {
-    .slide {
-      font-size: 16px; /* Medium text size for small tablets */
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .slide {
-      font-size: 18px; /* Medium to larger text size for larger tablets and desktops */
-    }
-  }
+ 
   </style>
   

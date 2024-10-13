@@ -41,13 +41,23 @@
             <div class="flex flex-col items-center justify-center w-full p-5 mx-5 bg-white lg:p-10 h-1/2 rounded-xl">
               <h2 class="text-[20px] lg:text-[38px] font-bold">Our Mission</h2>
                 <div class="max-w-[325px] md:max-w-[500px] h-full">
-                    <p>To provide personal and customized solutions to meet customers' unique needs and requirements.</p>
+                    <p>Our mission at Key Resources International Immigration Services is to provide high-
+quality, reliable immigration solutions tailored to each client’s unique needs. We strive to
+foster success for individuals, families, and businesses by helping them navigate
+immigration laws and procedures with integrity, professionalism, and a commitment to
+excellence. We are dedicated to making the global mobility experience smoother, enhancing
+opportunities for growth and development.</p>
                 </div>
             </div>
             <div class="flex flex-col items-center justify-center w-full p-5 mx-5 bg-white lg:p-10 h-1/2 rounded-xl">
               <h2 class="text-[20px] lg:text-[38px] font-bold">Our Vision</h2>
                 <div class="max-w-[325px] md:max-w-[500px] h-full">
-                    <p>To be the preferred WorldWide service provider of immigration and relocation services.</p>
+                    <p>Our vision is to be a global leader in immigration services, recognized for our exceptional
+client service, innovative solutions, and ability to create pathways for success in a dynamic,
+interconnected world. We aim to continuously expand our services, helping clients from all
+over the globe achieve their immigration goals and build a future in countries that offer
+new opportunities for personal and professional growth. Through our work, we aspire to
+contribute to a world where borders are gateways to opportunity, not barriers.</p>
                 </div>
             </div>
           </div>

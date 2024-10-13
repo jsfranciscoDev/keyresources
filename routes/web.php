@@ -22,6 +22,41 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/privacy-policy', function () {
+    return Inertia::render('PrivacyPolicy', [
+        
+    ]);
+});
+
+Route::get('/anti-fraud-policy', function () {
+    return Inertia::render('AntiFraudPolicy', [
+        
+    ]);
+});
+
+Route::get('/referral-agent', function () {
+    return Inertia::render('ReferralAgent', [
+        
+    ]);
+});
+
+Route::get('/terms-and-conditions', function () {
+    return Inertia::render('TermsandCondition', [
+        
+    ]);
+});
+
+Route::get('/tracking', function () {
+    return Inertia::render('Tracking/index', [
+        
+    ]);
+});
+
+
+
+
+
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

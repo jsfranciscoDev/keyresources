@@ -11,9 +11,14 @@
                 <p class="text-[20px] mb-4">The Immigration Consultant For Your Better Tomorrow!</p>
                
                 <span class="">
-                        We are an ISO 9001:2015 Certified Company offering professional immigration and human resources consultancy services, with offices in Dubai and Abu Dhabi, United Arab Emirates.<br><br>
-                        We offer professional and efficient immigration and relocation services by providing a no-hassle, one-stop center for potential immigrants to Canada, Australia, Poland, the Czech Republic, the United Kingdom, and other European countries at competitively affordable prices.<br><br>
-                        We, as a company, are providing services to various countries around the globe to all nationalities, we help people in going to countries for the purpose of education, work or settlement.
+                    Key Resources International Immigration Services is a trusted partner in navigating the
+                    complexities of global immigration. With a focus on transparency, efficiency, and
+                    personalized service, we help individuals and families achieve their immigration goals,
+                    whether it’s securing a work permit, visa, or permanent residency. Specializing in
+                    immigration services for Canada, Schengen countries, and other global destinations, our
+                    experienced team is dedicated to simplifying the process and delivering successful
+                    outcomes. Our mission is to empower you with the right resources and guidance to make
+                    your immigration journey seamless and stress-free.
                 </span>
 
             

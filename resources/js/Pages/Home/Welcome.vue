@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSections.vue';
 import ServicesSection from './Components/ServicesSection.vue';
 import AboutSection from './Components/AboutSection.vue';
 import CoreValuesSection from './Components/CoreValuesSections.vue';
+import SetusApart from './Components/SetusApart.vue';
 import Navbar from '@/Layouts/Navbar.vue';
 import Footer from '@/Layouts/Footer.vue';
 
@@ -35,6 +36,7 @@ defineProps({
     <AboutSection id="about"/>
     <CoreValuesSection/>
     <ServicesSection id="services"/>
+    <SetusApart id="setusapart"/>
     <Footer/>
    </div>
 

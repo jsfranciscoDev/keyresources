@@ -1,7 +1,7 @@
 <template>
-  <nav :class="{'bg-neutral-800 text-white': isScrolled, 'md:bg-transparent': !isScrolled}" class="z-50 w-full transition-all duration-300">
+  <nav :class="{'bg-neutral-100 text-black': isScrolled, 'md:bg-transparent': !isScrolled}" class="z-50 w-full transition-all duration-300">
     <div class="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
-      <div class="relative flex items-center justify-between h-16">
+      <div class="relative flex items-center justify-end w-full h-16">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
           <button
@@ -46,28 +46,33 @@
             </svg>
           </button>
         </div>
-        <div class="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
-          <div class="flex items-center flex-shrink-0 text-black">Logo Here</div>
-          <div class="hidden sm:ml-6 sm:block">
-            <div class="flex space-x-4">
+        <div class="flex flex-row hidden md:flex">
+          <div>
+            <a href="#home">
+              <img src="images/header_logo.png" :class="{'': isScrolled, 'md:bg-transparent': !isScrolled}" class="absolute top-3 left-0 w-[250px] h-auto rounded-xl">
+            </a>
+          </div>
+          <div class="">
+            <div class="flex gap-6">
+              
               <a
-                href="#home"
-                class="px-3 py-2 text-sm font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
+                href="/#home"
+                class="px-3 py-2 text-[18px] font-bold rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
                 >Home</a
               >
               <a
-                href="#about"
-                class="px-3 py-2 text-sm font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
+                href="/#about"
+                class="px-3 py-2 text-[18px] font-bold rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
                 >About</a
               >
               <a
-                href="#services"
-                class="px-3 py-2 text-sm font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
+                href="/#services"
+                class="px-3 py-2 text-[18px] font-bold rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
                 >Services</a
               >
               <a
-                href="#"
-                class="px-3 py-2 text-sm font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
+                href="/tracking"
+                class="px-3 py-2 text-[18px] font-bold rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
                 >Tracking</a
               >
             </div>
@@ -96,7 +101,7 @@
           >Services</a
         >
         <a
-          href="#"
+          href="/tracking"
           class="block px-3 py-2 text-base font-medium rounded-md text-black-300 hover:bg-gray-700 hover:text-white"
           >Tracking</a
         >

@@ -2,11 +2,9 @@
     <div class="p-10 pb-10 overflow-x-hidden bg-gray-50 xl:px-28 xl:pb-28">
       <div class="flex flex-col items-center justify-center w-full p-5 text-center xl:p-16">
         <h2 class="text-[28px] font-bold lg:text-[48px]">Our Services</h2>
-      <span>We're Committed to Providing Comprehensive and Professional Immigration Consultancy Services and Advice to our Clients.
-Work Visa
-Investor Visa
-PR: Permanent Residency
-TOURIST</span>
+      <span>At Key Resources International Immigration Services, we offer a comprehensive range of
+immigration services designed to meet the needs of individuals, families, and businesses
+seeking opportunities abroad. Our services include:</span>
       </div>
       <div v-for="(item, index) in items" :key="index" class="border-b border-gray-300">
         <h2>
@@ -46,36 +44,42 @@ TOURIST</span>
   // Define the accordion items
   const items = ref([
     { 
-      title: "What is a work permit?", 
-      content: `A work permit is a document that authorizes a foreigner to work legally in another country. 
-      This permit indicates the company entrusting an execution of work to the foreigner and the position or the type of work the foreigner is to perform. 
-      If working abroad is your aspiration, our working abroad experts can assist you in applying to highly profiled companies in many countries in Europe and Canada 
-      that are in search of your proficiency after having a thorough assessment of your profile in making sure you are shortlisted and selected by the right employer.` 
+      title: "Work Permits", 
+      content: `We assist individuals in obtaining work permits for various countries, ensuring compliance
+with local immigration laws and providing guidance through the application process.` 
     },
     { 
-      title: "What is an Investor Visa?", 
-      content: `An investor visa is granted to an individual who is willing and able to make a substantial financial investment in another country. 
-      Investor visa holders are permitted to work, study, and engage in business activities. They can even be accompanied or joined by their dependents.
-      Willing to invest abroad, particularly in the UK? Here in JUST MIGRATE NOW, our investment immigration barristers and immigration lawyers work firmly with investors, 
-      wealth managers, and leading banks to prepare and submit high-quality visa applications for investors and their families. Our barristers are experts within the 
-      immigration options for investors and can guide you through complex headquarters Immigration Rules and policies.` 
+      title: "Work Visas", 
+      content: `Our team helps clients secure work visas to countries like Canada, Schengen nations, and
+beyond. We provide support in gathering documentation, preparing for interviews, and
+navigating complex immigration procedures.` 
     },
     { 
-      title: "What is a Permanent Resident?", 
-      content: `A permanent resident is someone given a permanent stay status by migrating to another country but is not a citizen of that country. 
-      For example, a student or foreign worker is not a permanent resident. Particularly in Canada, anyone is allowed to apply for permanent residency, but only 
-      qualified candidates are accepted.
-      With the complexity and time-consuming nature of the permanent residency application process, it is essential that if you are considering applying for permanent 
-      residence in Canada or any country of desire, you get professional immigration help throughout the PR process. With many years of experience and having helped 
-      thousands of people immigrate to their dream countries, we are always open to helping you too.` 
+      title: "Permanent Residency", 
+      content: `For those looking to establish long-term residence, we specialize in permanent residency
+applications, offering tailored solutions that fit your unique situation.` 
     },
     { 
-      title: "What is a Tourist Visa?", 
-      content: `Generally, a citizen of a foreign country who wishes to enter another country must first obtain a visa, either a nonimmigrant visa for a temporary stay 
-      or an immigrant visa for permanent residence. Visitor or tourist visas are nonimmigrant visas for persons who want to enter another country temporarily for 
-      business, tourism, or a combination of both purposes. Irrespective of whichever country you wish to visit, we are here to guide you with all the necessary 
-      information and shall assist you best in application procedures.` 
-    }
+      title: "Citizenship Applications", 
+      content: `We assist clients in obtaining citizenship in their desired country, guiding them through the
+legal requirements, applications, and interviews for a smooth transition to a new
+nationality.` 
+    },
+    { 
+      title: "Visit Visas", 
+      content: `Whether for tourism, business, or family visits, we handle visit visa applications for
+countries around the globe, ensuring your travel plans are realized with minimal hassle.` 
+    },
+    { 
+      title: "Student Visas", 
+      content: `Our experts help students secure visas to pursue education abroad, guiding them through
+the complex process of obtaining approval from their chosen institutions and countries.` 
+    },
+    { 
+      title: "Global Immigration Services", 
+      content: `Our team offers visa and immigration solutions for countries around the world, helping
+clients meet global mobility goals whether for work, study, or personal reasons.` 
+    },
   ]);
   
   // Track the currently active accordion index

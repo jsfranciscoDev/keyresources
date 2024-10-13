@@ -16,5 +16,13 @@
         "tailwindcss": "^3.2.1",
         "vite": "^5.0.0",
         "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "@iconify/json": "^2.2.256",
+        "@iconify/vue": "^4.1.2",
+        "flag-icon-css": "^4.1.7",
+        "swiper": "^11.1.14",
+        "vue-country-flag-next": "^2.3.2",
+        "vue-flag-pack": "^0.2.13"
     }
 }

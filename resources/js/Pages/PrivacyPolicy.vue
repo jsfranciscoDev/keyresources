@@ -1,0 +1,230 @@
+<script setup>
+import { Head, Link } from '@inertiajs/vue3';
+import Navbar from '@/Layouts/Navbar.vue';
+import Footer from '@/Layouts/Footer.vue';
+
+defineProps({
+    canLogin: {
+        type: Boolean,
+    },
+    canRegister: {
+        type: Boolean,
+    },
+    laravelVersion: {
+        type: String,
+        required: true,
+    },
+    phpVersion: {
+        type: String,
+        required: true,
+    },
+});
+</script>
+
+<template>
+   <Head title="Key Resources International Services" />
+   
+ 
+   <div class="relative w-full">
+    <Navbar class="fixed"/>
+    <div class="w-full h-full">
+        <div class="w-full h-[500px] bg-gray-100 flex items-center justify-center">
+            <h2 class="font-bold text-xl lg:text-[48px]">Privacy Policy</h2>
+        </div>
+    </div>
+
+    <div class="mt-10 container-privacy">
+        
+<p>Last updated: October 13, 2024</p>
+
+<p>
+    This Privacy Policy describes Our policies and procedures on the collection, 
+    use, and disclosure of Your information when You use the Service and tells You 
+    about Your privacy rights and how the law protects You.
+</p>
+
+<p>
+    We use Your Personal data to provide and improve the Service. By using the Service, 
+    You agree to the collection and use of information in accordance with this Privacy Policy.
+</p>
+
+<h2>Interpretation and Definitions</h2>
+
+<h2>Interpretation</h2>
+<p>
+    The words of which the initial letter is capitalized have meanings defined 
+    under the following conditions. The following definitions shall have the 
+    same meaning regardless of whether they appear in singular or in plural.
+</p>
+
+<h2>Definitions</h2>
+<p>For the purposes of this Privacy Policy:</p>
+<ul>
+    <li>
+        <strong>Account</strong> means a unique account created for You to access 
+        our Service or parts of our Service.
+    </li>
+    <li>
+        <strong>Company</strong> (referred to as either "the Company", "We", "Us" 
+        or "Our" in this Agreement) refers to Key Resources International Services, 
+        Crystal Business Centre Building, Al Karama, Dubai, UAE P.O Box 122626.
+    </li>
+    <li>
+        <strong>Cookies</strong> are small files placed on Your computer, mobile device, 
+        or any other device by a website, containing the details of Your browsing 
+        history on that website among its many uses.
+    </li>
+    <li><strong>Country</strong> refers to: United Arab Emirates.</li>
+    <li>
+        <strong>Device</strong> means any device that can access the Service, such as 
+        a computer, a cellphone, or a digital tablet.
+    </li>
+    <li>
+        <strong>Personal Data</strong> is any information that relates to an identified 
+        or identifiable individual.
+    </li>
+    <li><strong>Service</strong> refers to the Website.</li>
+    <li>
+        <strong>Service Provider</strong> means any natural or legal person who processes 
+        the data on behalf of the Company. It refers to third-party companies or individuals 
+        employed by the Company to facilitate the Service, to provide the Service on behalf 
+        of the Company, to perform services related to the Service, or to assist the Company 
+        in analyzing how the Service is used.
+    </li>
+    <li>
+        <strong>Usage Data</strong> refers to data collected automatically, either generated 
+        by the use of the Service or from the Service infrastructure itself (for example, 
+        the duration of a page visit).
+    </li>
+    <li>
+        <strong>Website</strong> refers to Key Resources International Services, accessible 
+        from <a href="https://keyresourcesintlservices.com/" target="_blank" 
+        rel="external nofollow noopener">https://keyresourcesintlservices.com/</a>.
+    </li>
+    <li>
+        <strong>You</strong> means the individual accessing or using the Service, or the 
+        company, or other legal entity on behalf of which such individual is accessing 
+        or using the Service, as applicable.
+    </li>
+</ul>
+
+<h1>Collecting and Using Your Personal Data</h1>
+
+<h2>Types of Data Collected</h2>
+
+<h3>Personal Data</h3>
+<p>
+    While using Our Service, We may ask You to provide Us with certain personally 
+    identifiable information that can be used to contact or identify You. Personally 
+    identifiable information may include, but is not limited to:
+</p>
+<ul>
+    <li>Email address</li>
+    <li>First name and last name</li>
+    <li>Phone number</li>
+    <li>Usage Data</li>
+</ul>
+
+<h3>Usage Data</h3>
+<p>
+    Usage Data is collected automatically when using the Service. Usage Data may 
+    include information such as Your Device's Internet Protocol address (e.g., IP address), 
+    browser type, browser version, the pages of our Service that You visit, the time and date 
+    of Your visit, the time spent on those pages, unique device identifiers, and other 
+    diagnostic data.
+</p>
+
+<p>
+    When You access the Service by or through a mobile device, We may collect certain 
+    information automatically, including, but not limited to, the type of mobile device 
+    You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile 
+    operating system, the type of mobile Internet browser You use, unique device identifiers, 
+    and other diagnostic data.
+</p>
+
+<p>
+    We may also collect information that Your browser sends whenever You visit our 
+    Service or when You access the Service by or through a mobile device.
+</p>
+
+<h3>Tracking Technologies and Cookies</h3>
+<p>
+    We use Cookies and similar tracking technologies to track the activity on Our Service 
+    and store certain information. Tracking technologies used are beacons, tags, and scripts 
+    to collect and track information and to improve and analyze Our Service.
+</p>
+
+<p>The technologies We use may include:</p>
+<ul>
+    <li>
+        <strong>Cookies or Browser Cookies:</strong> A cookie is a small file placed on Your Device. 
+        You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. 
+        However, if You do not accept Cookies, You may not be able to use some parts of our Service. 
+        Unless you have adjusted Your browser setting to refuse Cookies, our Service may use Cookies.
+    </li>
+    <li>
+        <strong>Flash Cookies:</strong> Certain features of our Service may use local stored objects 
+        (or Flash Cookies) to collect and store information about Your preferences or Your activity 
+        on our Service. Flash Cookies are not managed by the same browser settings as those used for 
+        Browser Cookies. For more information, see <a href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html" 
+        target="_blank" rel="external nofollow noopener">Adobe Flash Cookie settings</a>.
+    </li>
+    <li>
+        <strong>Web Beacons:</strong> Certain sections of our Service and emails may contain small 
+        electronic files known as web beacons (clear gifs, pixel tags, or single-pixel gifs) that permit 
+        the Company to, for example, count users who have visited those pages or opened an email.
+    </li>
+</ul>
+
+<p>
+    Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your device when 
+    You go offline, while Session Cookies are deleted when You close Your web browser. 
+    Learn more about cookies <a href="https://www.termsfeed.com/privacy-policy-generator/#faq-8" 
+    target="_blank" rel="noopener">here</a>.
+</p>
+
+<h2>Use of Your Personal Data</h2>
+<p>
+    The Company may use Personal Data to:
+</p>
+<ul>
+    <li>Provide and maintain our Service, including monitoring usage.</li>
+    <li>Manage Your Account and registration as a user.</li>
+    <li>Fulfill contracts for products or services You purchase.</li>
+    <li>Contact You regarding updates or information.</li>
+    <li>Provide news, offers, or promotions similar to services you have used.</li>
+    <li>Manage Your requests or inquiries.</li>
+    <li>Conduct business transfers like mergers or acquisitions.</li>
+</ul>
+
+<h2>Contact Us</h2>
+<p>If you have any questions, you can contact us by email at <a href="mailto:info@keyresourcesintlservices.com">info@keyresourcesintlservices.com</a>.</p>
+
+    </div>
+    <Footer/>
+   </div>
+
+</template>
+
+<style>
+.container-privacy{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.container-privacy h3{
+   font-size: 28px;
+   margin: 15px 0px 0px 0px;
+}
+
+.container-privacy h2{
+   font-size: 28px;
+   margin: 15px 0px 0px 0px;
+}
+
+.container-privacy p{
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+</style>

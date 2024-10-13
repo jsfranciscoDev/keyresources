@@ -17,13 +17,45 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
+    return Inertia::render('Home/Welcome', [
+        
     ]);
 });
+
+Route::get('/privacy-policy', function () {
+    return Inertia::render('PrivacyPolicy', [
+        
+    ]);
+});
+
+Route::get('/anti-fraud-policy', function () {
+    return Inertia::render('AntiFraudPolicy', [
+        
+    ]);
+});
+
+Route::get('/referral-agent', function () {
+    return Inertia::render('ReferralAgent', [
+        
+    ]);
+});
+
+Route::get('/terms-and-conditions', function () {
+    return Inertia::render('TermsandCondition', [
+        
+    ]);
+});
+
+Route::get('/tracking', function () {
+    return Inertia::render('Tracking/index', [
+        
+    ]);
+});
+
+
+
+
+
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
@@ -34,10 +66,5 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
-
-// Disable all other routes for now and reroute to '/'
-Route::any('{any}', function () {
-    return redirect('/');
-})->where('any', '.*');
 
 require __DIR__.'/auth.php';
